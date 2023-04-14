@@ -1,6 +1,11 @@
-public class AirTransport extends Transport {
-    protected AirTransport(boolean isMotorized, String serial) {
+public final class AirTransport extends Transport {
+    public AirTransport(boolean isMotorized, String serial) {
         super(isMotorized, serial);
+    }
+
+    @Override
+    public void toTransport() {
+        System.out.println("AirTransport is transporting");
     }
 
     @Override
