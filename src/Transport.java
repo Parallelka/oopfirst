@@ -1,5 +1,5 @@
-public class Transport {
-    private String serial = "";
+abstract class Transport {
+    private final String serial;
     private boolean isMotorized;
 
     public Transport(boolean isMotorized, String serial) {
@@ -8,19 +8,17 @@ public class Transport {
     }
 
     public Transport() {
+        serial = "";
     }
 
     public String getSerial() {
         return serial;
     }
 
-    public void setSerial(String serial) {
-        this.serial = serial;
-    }
-
     public boolean isMotorized() {
         return isMotorized;
     }
+    public abstract void toTransport();
 
     public void setMotorized(boolean motorized) {
         isMotorized = motorized;
