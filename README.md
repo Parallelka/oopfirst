@@ -1,4 +1,5 @@
-# hillel_AQA_lesson_13_home_task
+# hillel_AQA_lesson_14_home_task
 
-Create several classes with a constructor (with parameters) / without a constructor. At the same time, use different access modifiers (yes, all 4), get, and set. 
+Create a class hierarchy using the keyword abstract(class AND method), and final(variable AND class). Add overridden and overloaded (methods OR constructors). Use super(with constructors OR methods OR variables).
+
 
